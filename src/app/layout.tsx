@@ -18,13 +18,13 @@ const sans = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Boni Representações | Representação Comercial de Excelência",
+  title: "Boni Representações Têxteis | Malhas e tecidos para confecções",
   description:
-    "Boni Representações conecta marcas de qualidade a lojistas e distribuidores com atendimento próximo, gestão de carteira e resultados consistentes.",
+    "Representação têxtil em Brusque/SC: malhas básicas e diferenciadas, linha ECO, fitness, tecidos planos nacionais e importados e acabamentos tecnológicos para confecções.",
   openGraph: {
-    title: "Boni Representações",
+    title: "Boni Representações Têxteis",
     description:
-      "Representação comercial com confiança, prestígio e resultados.",
+      "Malhas e tecidos de alto padrão para a sua confecção.",
     type: "website",
     locale: "pt_BR",
   },
