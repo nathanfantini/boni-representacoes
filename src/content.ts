@@ -54,7 +54,7 @@ export const services: {
   {
     icon: "portfolio",
     title: "Tecidos planos",
-    text: "Tecidos planos nacionais e importados para camisaria, moda e alfaiataria, com opções em algodão e misturas com poliéster.",
+    text: "Tecidos planos nacionais para camisaria, moda, alfaiataria e linha profissional, com opções em algodão e misturas com poliéster.",
   },
   {
     icon: "users",

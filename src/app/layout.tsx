@@ -21,7 +21,7 @@ const sans = Manrope({
 export const metadata: Metadata = {
   title: "Boni Representações Têxteis | Malhas e tecidos para confecções",
   description:
-    "Representação têxtil em Brusque/SC: malhas básicas e diferenciadas, linha ECO, fitness, tecidos planos nacionais e importados e acabamentos tecnológicos para confecções.",
+    "Representação têxtil em Brusque/SC: malhas básicas e diferenciadas, texturas, fitness e wellness, tecidos planos nacionais, tactel UV e impermeável, elásticos e acabamentos tecnológicos para confecções.",
   openGraph: {
     title: "Boni Representações Têxteis",
     description:
