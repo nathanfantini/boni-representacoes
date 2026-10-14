@@ -117,6 +117,13 @@ export const brands: { name: string; tagline: string; text: string; tags: string
     text: "Malhas e moletons com variedade de cores, artigos diferenciados e compromisso com uma produção vegana.",
     tags: ["Malhas", "Moletons", "Vegana"],
   },
+  // CONFIRMAR: descrição e linhas da Têxtil Lira
+  {
+    name: "Têxtil Lira",
+    tagline: "Indústria têxtil parceira",
+    text: "Tecidos para confecções, apresentados com o atendimento próximo e o mostruário da Boni.",
+    tags: ["Tecidos", "Confecção"],
+  },
 ];
 
 /** Faixa em movimento com as linhas de produto. */
