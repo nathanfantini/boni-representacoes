@@ -120,14 +120,14 @@ export const brands: { name: string; tagline: string; text: string; tags: string
   {
     name: "Têxtil Lira",
     tagline: "Mais de 25 anos de história",
-    text: "Empresa familiar com mais de duas décadas e meia de tradição têxtil, levando para a confecção a experiência de quem conhece o tecido de perto.",
-    tags: ["Empresa familiar", "Tradição", "Tecidos"],
+    text: "Malhas com texturas inovadoras acompanhadas da moda, trazidas por excelentes profissionais de pesquisas e tendências e apresentadas pela equipe comercial da Boni.",
+    tags: ["Malhas", "Texturas", "Tendências"],
   },
   {
     name: "Dameny",
     tagline: "Especialista em elásticos",
-    text: "Anos de mercado fornecendo elásticos que auxiliam na construção das peças, com a qualidade e a constância que a produção exige.",
-    tags: ["Elásticos", "Aviamentos", "Construção de peças"],
+    text: "Elásticos de todos os tamanhos e tipos para melhor servir na confecção de suas peças.",
+    tags: ["Elásticos", "Todos os tamanhos", "Todos os tipos"],
   },
 ];
 
