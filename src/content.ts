@@ -81,7 +81,7 @@ export const differentials: {
   {
     icon: "star",
     title: "Marcas com tradição",
-    text: "Representamos indústrias consolidadas: a RVB, com quase três décadas de história; a DOPTEX, referência em inovação do tear ao vestir; a Têxtil Lira, empresa familiar com mais de 25 anos; e a Dameny, com anos de mercado em elásticos.",
+    text: "Representamos indústrias consolidadas: a RVB, com quase três décadas de história; a DOPTEX, referência em inovação do tear ao vestir; a Têxtil Lira, empresa familiar com mais de 25 anos; e a Damenny, fabricante de elásticos de alta precisão.",
   },
   {
     icon: "compass",
@@ -124,10 +124,10 @@ export const brands: { name: string; tagline: string; text: string; tags: string
     tags: ["Malhas", "Texturas", "Tendências"],
   },
   {
-    name: "Dameny",
-    tagline: "Especialista em elásticos",
-    text: "Elásticos de todos os tamanhos e tipos para melhor servir na confecção de suas peças.",
-    tags: ["Elásticos", "Todos os tamanhos", "Todos os tipos"],
+    name: "Damenny",
+    tagline: "Elásticos para a sua indústria",
+    text: "Fabricante de elásticos e fitas elásticas de alta precisão em Pomerode (SC). Elásticos de todos os tamanhos e tipos para lingerie, alças, bicos, embutir e viés, além de jacquard personalizado com a marca da sua confecção.",
+    tags: ["Lingerie", "Alças e viés", "Jacquard personalizado"],
   },
 ];
 

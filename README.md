@@ -24,7 +24,7 @@ O projeto gera um site estático (`output: "export"` em `next.config.ts`) servid
 Todo o conteúdo fica em `src/content.ts`. Antes de divulgar, confirme os itens marcados com **CONFIRMAR**:
 
 - `metrics` — números reais (anos, confecções atendidas, artigos, satisfação)
-- `brands` — marcas representadas (hoje DOPTEX, RVB, Têxtil Lira e Dameny)
+- `brands` — marcas representadas (hoje DOPTEX, RVB, Têxtil Lira e Damenny)
 
 Textos de seções (Sobre, Missão/Visão/Valores, CTA) ficam em `src/app/page.tsx`.
 

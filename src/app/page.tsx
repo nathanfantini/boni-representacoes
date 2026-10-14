@@ -153,7 +153,7 @@ function About() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-lg leading-relaxed text-graphite-600">
-              Representamos marcas como DOPTEX, RVB, Têxtil Lira e Dameny e acompanhamos cada cliente de perto: da
+              Representamos marcas como DOPTEX, RVB, Têxtil Lira e Damenny e acompanhamos cada cliente de perto: da
               escolha do artigo e da cartela de cores até a chegada do tecido na produção.
             </p>
           </Reveal>
