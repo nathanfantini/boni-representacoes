@@ -7,7 +7,7 @@ Next.js 15 (App Router) + TypeScript + Tailwind CSS 3.
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build && npm start
+npm run build    # gera o site estático em out/
 ```
 
 ## Publicação
