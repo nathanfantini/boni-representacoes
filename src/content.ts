@@ -130,12 +130,13 @@ export const brands: { name: string; tagline: string; text: string; tags: string
 export const productLines: string[] = [
   "Malhas básicas",
   "Malhas diferenciadas",
+  "Texturas",
+  "Fitness e wellness",
   "Moletons",
   "Tecidos planos",
-  "Camisaria",
-  "Workwear",
-  "Fitness",
+  "Linha profissional",
+  "Tactel UV e impermeável",
+  "Elásticos",
   "Linha ECO",
   "Antiviral e antibacteriano",
-  "Nacionais e importados",
 ];

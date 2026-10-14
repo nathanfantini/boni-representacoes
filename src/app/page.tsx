@@ -58,9 +58,11 @@ function Hero() {
           </Reveal>
           <Reveal delay={240}>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-graphite-600 sm:text-lg">
-              Malhas básicas e diferenciadas, linha ECO, fitness, tecidos planos nacionais e
-              importados e acabamentos tecnológicos. A Boni Representações Têxteis leva as
-              melhores indústrias até a sua confecção.
+              Malhas básicas, diferenciadas, texturas, linha fitness e wellness, tecidos planos
+              nacionais para linha profissional, tactel de poliéster com acabamentos UV e
+              impermeável, elásticos que auxiliam na construção de suas peças, além de uma série
+              de atributos tecnológicos. A Boni Representações Têxteis leva os melhores e mais
+              confiáveis players do mercado até a sua confecção!
             </p>
           </Reveal>
           <Reveal delay={360} className="mt-12 flex flex-col gap-4 sm:flex-row">
