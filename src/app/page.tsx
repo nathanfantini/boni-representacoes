@@ -435,7 +435,7 @@ function Footer() {
             </span>
           </div>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-graphite-500">
-            Malhas, tecidos planos e acabamentos tecnológicos para confecções.
+            Malhas, tecidos planos, elásticos e acabamentos tecnológicos para confecções.
           </p>
         </div>
 
