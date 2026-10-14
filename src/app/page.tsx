@@ -153,7 +153,7 @@ function About() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-lg leading-relaxed text-graphite-600">
-              Representamos marcas como DOPTEX, RVB e Têxtil Lira e acompanhamos cada cliente de perto: da
+              Representamos marcas como DOPTEX, RVB, Têxtil Lira e Dameny e acompanhamos cada cliente de perto: da
               escolha do artigo e da cartela de cores até a chegada do tecido na produção.
             </p>
           </Reveal>
@@ -323,7 +323,7 @@ function Clients() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-6 md:grid-cols-2">
           {brands.map((b, i) => (
             <Reveal
               key={b.name}

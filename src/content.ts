@@ -124,6 +124,13 @@ export const brands: { name: string; tagline: string; text: string; tags: string
     text: "Tecidos para confecções, apresentados com o atendimento próximo e o mostruário da Boni.",
     tags: ["Tecidos", "Confecção"],
   },
+  // CONFIRMAR: descrição e linhas da Dameny
+  {
+    name: "Dameny",
+    tagline: "Indústria têxtil parceira",
+    text: "Mais uma indústria do portfólio Boni, com artigos selecionados para confecções que buscam qualidade.",
+    tags: ["Tecidos", "Confecção"],
+  },
 ];
 
 /** Faixa em movimento com as linhas de produto. */

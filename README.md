@@ -24,7 +24,7 @@ O projeto gera um site estático (`output: "export"` em `next.config.ts`) servid
 Todo o conteúdo fica em `src/content.ts`. Antes de divulgar, confirme os itens marcados com **CONFIRMAR**:
 
 - `metrics` — números reais (anos, confecções atendidas, artigos, satisfação)
-- `brands` — marcas representadas (hoje DOPTEX, RVB e Têxtil Lira)
+- `brands` — marcas representadas (hoje DOPTEX, RVB, Têxtil Lira e Dameny)
 
 Textos de seções (Sobre, Missão/Visão/Valores, CTA) ficam em `src/app/page.tsx`.
 
@@ -33,7 +33,7 @@ Textos de seções (Sobre, Missão/Visão/Valores, CTA) ficam em `src/app/page.t
 ```
 src/
   app/
-    layout.tsx     fontes (Cormorant Garamond + Manrope), SEO
+    layout.tsx     fontes (EB Garamond + Manrope), SEO
     page.tsx       seções: Hero, Empresa, Serviços, Diferenciais, Métricas, Clientes, CTA, Rodapé
     globals.css    classes base (botões, eyebrow, animação de entrada)
   components/
