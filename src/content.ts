@@ -97,7 +97,7 @@ export const differentials: {
 
 // CONFIRMAR: números reais com a Boni antes de publicar
 export const metrics: { value: number; prefix?: string; suffix?: string; label: string }[] = [
-  { value: 10, prefix: "+", label: "anos de mercado" },
+  { value: 25, prefix: "+", label: "anos de mercado" },
   { value: 300, prefix: "+", label: "confecções atendidas" },
   { value: 500, prefix: "+", label: "artigos no portfólio" },
   { value: 98, suffix: "%", label: "de clientes satisfeitos" },
