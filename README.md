@@ -10,17 +10,21 @@ npm run dev      # http://localhost:3000
 npm run build && npm start
 ```
 
-Deploy recomendado: Vercel (importar o repositório, sem configuração extra).
+## Publicação
+
+O site é publicado no **GitHub Pages** automaticamente a cada push na `main`
+(workflow em `.github/workflows/deploy.yml`):
+https://nathanfantini.github.io/boni-representacoes/
+
+O projeto gera um site estático (`output: "export"` em `next.config.ts`) servido em
+`/boni-representacoes`. Para um domínio próprio, defina `NEXT_PUBLIC_BASE_PATH=""` no build.
 
 ## Onde editar
 
-Todo o conteúdo fica em `src/content.ts`. Antes de publicar, troque os itens marcados com **TROCAR**:
+Todo o conteúdo fica em `src/content.ts`. Antes de divulgar, confirme os itens marcados com **CONFIRMAR**:
 
-- `contact.whatsapp` — número com DDI e DDD, só dígitos (ex.: `5547999999999`)
-- `contact.email` e `contact.region`
-- `metrics` — números reais (anos, clientes, marcas, satisfação)
-- `clients` — nomes das marcas/clientes. Para usar logos, coloque os arquivos em
-  `public/clientes/` e troque o `<span>` da seção Clientes em `src/app/page.tsx` por `<Image>`.
+- `metrics` — números reais (anos, confecções atendidas, artigos, satisfação)
+- `brands` — marcas representadas (hoje DOPTEX e RVB)
 
 Textos de seções (Sobre, Missão/Visão/Valores, CTA) ficam em `src/app/page.tsx`.
 
