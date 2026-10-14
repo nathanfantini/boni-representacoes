@@ -81,7 +81,7 @@ export const differentials: {
   {
     icon: "star",
     title: "Marcas com tradição",
-    text: "Representamos indústrias consolidadas, como a RVB, com quase três décadas de história, e a DOPTEX, referência em inovação do tear ao vestir.",
+    text: "Representamos indústrias consolidadas: a RVB, com quase três décadas de história; a DOPTEX, referência em inovação do tear ao vestir; a Têxtil Lira, empresa familiar com mais de 25 anos; e a Dameny, com anos de mercado em elásticos.",
   },
   {
     icon: "compass",
@@ -117,19 +117,17 @@ export const brands: { name: string; tagline: string; text: string; tags: string
     text: "Malhas e moletons com variedade de cores, artigos diferenciados e compromisso com uma produção vegana.",
     tags: ["Malhas", "Moletons", "Vegana"],
   },
-  // CONFIRMAR: descrição e linhas da Têxtil Lira
   {
     name: "Têxtil Lira",
-    tagline: "Indústria têxtil parceira",
-    text: "Tecidos para confecções, apresentados com o atendimento próximo e o mostruário da Boni.",
-    tags: ["Tecidos", "Confecção"],
+    tagline: "Mais de 25 anos de história",
+    text: "Empresa familiar com mais de duas décadas e meia de tradição têxtil, levando para a confecção a experiência de quem conhece o tecido de perto.",
+    tags: ["Empresa familiar", "Tradição", "Tecidos"],
   },
-  // CONFIRMAR: descrição e linhas da Dameny
   {
     name: "Dameny",
-    tagline: "Indústria têxtil parceira",
-    text: "Mais uma indústria do portfólio Boni, com artigos selecionados para confecções que buscam qualidade.",
-    tags: ["Tecidos", "Confecção"],
+    tagline: "Especialista em elásticos",
+    text: "Anos de mercado fornecendo elásticos que auxiliam na construção das peças, com a qualidade e a constância que a produção exige.",
+    tags: ["Elásticos", "Aviamentos", "Construção de peças"],
   },
 ];
 
