@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    @apply bg-ivory font-sans text-ink antialiased;
+  }
+  ::selection {
+    @apply bg-gold-300 text-ink;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-site px-5 sm:px-8 lg:px-10;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[11px] font-semibold uppercase tracking-luxe text-gold-500;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply block h-px w-8 bg-gold-400;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-3 rounded-none bg-ink px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.22em] text-ivory transition-all duration-300 hover:bg-gold-500;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-3 border border-ink/80 px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.22em] text-ink transition-all duration-300 hover:border-gold-500 hover:text-gold-600;
+  }
+  .gold-rule {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold-400/70 to-transparent;
+  }
+}
+
+/* Revelação suave ao rolar */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.9s cubic-bezier(0.2, 0.65, 0.3, 1),
+    transform 0.9s cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .animate-marquee {
+    animation: none;
+  }
+}
