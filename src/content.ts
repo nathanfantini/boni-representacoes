@@ -1,7 +1,6 @@
 /**
  * Conteúdo da landing page — edite tudo aqui.
  * Dados tirados do Instagram @bonirepresentacoess.
- * Itens marcados com "CONFIRMAR" precisam ser validados com a Boni antes de publicar.
  */
 
 export const contact = {
@@ -95,7 +94,7 @@ export const differentials: {
   },
 ];
 
-// CONFIRMAR: números reais com a Boni antes de publicar
+// Números confirmados com a Boni
 export const metrics: { value: number; prefix?: string; suffix?: string; label: string }[] = [
   { value: 25, prefix: "+", label: "anos de mercado" },
   { value: 1000, prefix: "+", label: "clientes atendidos" },
