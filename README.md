@@ -14,10 +14,13 @@ npm run build    # gera o site estático em out/
 
 O site é publicado no **GitHub Pages** automaticamente a cada push na `main`
 (workflow em `.github/workflows/deploy.yml`):
-https://nathanfantini.github.io/boni-representacoes/
+https://bonirepresentacoes.com.br
 
-O projeto gera um site estático (`output: "export"` em `next.config.ts`) servido em
-`/boni-representacoes`. Para um domínio próprio, defina `NEXT_PUBLIC_BASE_PATH=""` no build.
+O projeto gera um site estático (`output: "export"` em `next.config.ts`) servido na raiz
+do domínio. O arquivo `public/CNAME` diz ao GitHub Pages qual é o domínio.
+
+DNS (Registro.br, zona do domínio): registros A para 185.199.108.153, 185.199.109.153,
+185.199.110.153 e 185.199.111.153, e CNAME `www` para `nathanfantini.github.io`.
 
 ## Onde editar
 

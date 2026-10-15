@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
-// No GitHub Pages o site fica em /boni-representacoes.
-// Se for para um domínio próprio, defina NEXT_PUBLIC_BASE_PATH="" no build.
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/boni-representacoes";
+// O site roda na raiz do domínio próprio (bonirepresentacoes.com.br).
+// Para voltar a publicar em nathanfantini.github.io/boni-representacoes,
+// defina NEXT_PUBLIC_BASE_PATH="/boni-representacoes" no build.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
